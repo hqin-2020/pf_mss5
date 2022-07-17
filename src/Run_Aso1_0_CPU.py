@@ -24,7 +24,7 @@ if __name__ == '__main__':
     obs_series = np.array(obs_series)
 
     T = obs_series.shape[1]
-    N = 10_000
+    N = 100_000
 
     case = 'simulated data, seed = ' + str(seed) + ', T = ' + str(T) + ', N = ' + str(N)
     try: 
