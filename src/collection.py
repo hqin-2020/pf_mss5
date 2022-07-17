@@ -111,11 +111,11 @@ for i in tqdm(range(len(θ_name))):
 λ, η = 0.5, 0
 b11, b22 = 1, 0.5
 
-As11, As12, As13,      = 0.9, 0.4, 0.5
-As21, As22, As23, Aso2 = 0.3, 0.8, 0.3, 0
+As11, As12, As13,      = 0.9, 0.4, -0.5
+As21, As22, As23, Aso2 = -0.3, 0.8, 0.3, 0
 As31, As32, As33, Aso3 = 0.4, 0.2, 0.7, 0
 
-Bs11, Bs21, Bs22, Bs31, Bs32, Bs33 = 4, 0.5, 3, 0.7, 0.9, 2
+Bs11, Bs21, Bs22, Bs31, Bs32, Bs33 = 4, -0.5, 1.2, -0.7, 0.9, 1.1
 
 θ_true = [λ, η, b11, b22, As11, As12, As13, As21, As22, As23, Aso2, As31, As32, As33, Aso3, Bs11, Bs21, Bs22, Bs31, Bs32, Bs33, np.nan, np.nan, np.nan]
 
