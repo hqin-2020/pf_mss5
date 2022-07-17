@@ -8,7 +8,7 @@ workdir = os.path.dirname(os.getcwd())
 source_dir = '/project2/lhansen/particle_filtering/pf_mss5/'
 destination_dir = workdir + '/output/'
 
-N = 100_000
+N = 10_000
 T = 283
 
 for i in tqdm(range(1,batch_num + 1)):
