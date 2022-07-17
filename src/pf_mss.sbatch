@@ -8,7 +8,7 @@
 #SBATCH --nodes=1
 #SBATCH --cpus-per-task=28
 #SBATCH --mem-per-cpu=2000
-#SBATCH --array=1-125
+#SBATCH --array=1-120
 #SBATCH --constraint=fdr
 
 module load python/anaconda-2021.05

@@ -1,6 +1,6 @@
 import os
 
-batch_num = 125
+batch_num = 120
 
 with open('Run_Aso1_0_CPU.py') as f:
     lines = f.readlines()
